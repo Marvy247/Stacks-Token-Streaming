@@ -10,7 +10,7 @@ plan:
       transactions:
         - contract-publish:
             contract-name: stream
-            expected-sender: SP354C674NKR454C1TYDH4GR5YWZF3J5F0ZGDAWYJ
+            expected-sender: SP34P7ZCF8FA25A62PFYGXMZJT03K3N6THME1P3C6
             cost: 58830
             path: contracts/stream.clar
             anchor-block-only: true
