@@ -1,0 +1,18 @@
+---
+id: 0
+name: Mainnet deployment
+network: mainnet
+stacks-node: "https://stacks-node-api.mainnet.stacks.co"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoin.blockstack.com:8332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: stream
+            expected-sender: SP354C674NKR454C1TYDH4GR5YWZF3J5F0ZGDAWYJ
+            cost: 58830
+            path: contracts/stream.clar
+            anchor-block-only: true
+            clarity-version: 2
+      epoch: "2.4"
